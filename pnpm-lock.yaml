@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      lint-staged:
-        specifier: ^15.2.9
-        version: 15.2.9
       pinia:
         specifier: ^2.1.7
         version: 2.2.1(vue@3.4.37)
@@ -39,6 +36,9 @@ importers:
       husky:
         specifier: ^8.0.0
         version: 8.0.3
+      lint-staged:
+        specifier: ^15.2.9
+        version: 15.2.9
       prettier:
         specifier: ^3.2.5
         version: 3.3.3
