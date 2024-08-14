@@ -2,7 +2,7 @@
  * @Author: Chris
  * @Date: 2024-08-13 19:53:54
  * @LastEditors: Chris
- * @LastEditTime: 2024-08-14 00:08:45
+ * @LastEditTime: 2024-08-14 22:56:30
  * @Descripttion: **
 -->
 <script setup>
@@ -21,4 +21,15 @@ const { count, doubleCount } = storeToRefs(userStore) // 使用较多属性，�
   <button @click="userStore.asyncIncrement">asyncIncrement +</button>
   {{ count }}
   {{ doubleCount }}
+  <el-button type="primary">Primary</el-button>
+  <el-button type="success">Success</el-button>
+  <el-icon :size="size" :color="color">
+    <Edit />
+  </el-icon>
+  <el-icon>
+    <Plus />
+  </el-icon>
+  <el-icon>
+    <CirclePlus />
+  </el-icon>
 </template>
