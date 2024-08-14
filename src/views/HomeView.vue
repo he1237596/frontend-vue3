@@ -8,6 +8,7 @@
 <script setup>
 import { useCounterStore } from '@/stores'
 const userStore = useCounterStore()
+import { Edit, Plus, CirclePlus } from '@element-plus/icons-vue'
 
 import { storeToRefs } from 'pinia'
 const { count, doubleCount } = storeToRefs(userStore) // 使用较多属性，考虑使用storeToRefs解构
